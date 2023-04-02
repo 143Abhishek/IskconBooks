@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import About from './Component/About';
+import Books from './Component/Books';
+import Home from './Component/Home';
+import NavBar from './Component/navBar';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
-function App() {
+
+function App() {  
+  const [mode, setMode] = useState('light');
+  const [text, setText] = useState('dark');
+
+  const toogleMode = ()=>{
+    if (mode === 'light') {
+      setMode('dark');
+      setText('light')
+    } else {
+      setMode('light');
+      setText('drk')
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <NavBar mode={mode} toogleMode={toogleMode} text={text} />
+    <Routes>
+      <Route path='/' element={<Home text={text} mode={mode} />} />
+      <Route path='Books' element={<Books  text={text} mode={mode}/>} />    
+      <Route path='About' element={<About text={text} mode={mode}/>} />
+    </Routes>    
+    </BrowserRouter>
   );
 }
 

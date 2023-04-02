@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+.MyName{
+  text-decoration: none;
+  color: blue;
+  font-style: italic;
+}
+.MyName:hover{
+  color: rgb(2, 2, 99);
+}
 
 .App-logo {
   height: 40vmin;
