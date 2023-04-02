@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/iskconbooks/static/css/main.28b432ef.css",
+    "main.js": "/iskconbooks/static/js/main.49686d31.js",
+    "static/js/787.70b272b2.chunk.js": "/iskconbooks/static/js/787.70b272b2.chunk.js",
+    "static/media/EKC.pdf": "/iskconbooks/static/media/EKC.1ea6e7f096f28cd0d3dc.pdf",
+    "static/media/K-TRP.pdf": "/iskconbooks/static/media/K-TRP.a4bcd572c10c85e89318.pdf",
+    "static/media/SSR.pdf": "/iskconbooks/static/media/SSR.936465984dc616e2fb40.pdf",
+    "static/media/LCFL.pdf": "/iskconbooks/static/media/LCFL.86e8b8717fd819c78872.pdf",
+    "static/media/srilaPrabhupada.jpeg": "/iskconbooks/static/media/srilaPrabhupada.530a1e18dd1b93c6bde7.jpeg",
+    "static/media/TOP.pdf": "/iskconbooks/static/media/TOP.4495cdb48db1a7a444b2.pdf",
+    "static/media/CAT.pdf": "/iskconbooks/static/media/CAT.ecebd9f68a47d6ba86dd.pdf",
+    "static/media/K-TRP.jpeg": "/iskconbooks/static/media/K-TRP.bbcc94211771544de50a.jpeg",
+    "static/media/LCFL.jpg": "/iskconbooks/static/media/LCFL.416b17da930b863c088b.jpg",
+    "static/media/TOP.jpeg": "/iskconbooks/static/media/TOP.77b523ef5cc020de1371.jpeg",
+    "static/media/EKC.jpeg": "/iskconbooks/static/media/EKC.3bf03b38c164da5eb2e5.jpeg",
+    "static/media/CAT.jpg": "/iskconbooks/static/media/CAT.6de58eef42d61cc2db3b.jpg",
+    "static/media/SSR.jpeg": "/iskconbooks/static/media/SSR.7c704c98405dac054174.jpeg",
+    "static/media/SRILAP.jpeg": "/iskconbooks/static/media/SRILAP.6368cd16fca864131036.jpeg",
+    "index.html": "/iskconbooks/index.html",
+    "main.28b432ef.css.map": "/iskconbooks/static/css/main.28b432ef.css.map",
+    "main.49686d31.js.map": "/iskconbooks/static/js/main.49686d31.js.map",
+    "787.70b272b2.chunk.js.map": "/iskconbooks/static/js/787.70b272b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28b432ef.css",
+    "static/js/main.49686d31.js"
+  ]
+}
